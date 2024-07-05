@@ -21,14 +21,26 @@ Deployment: Each service can be deployed independently, often using containers l
 
 microservices-project/
     ├── comment_retrieval/
+    
     │   ├── app.py
+    
     │   ├── requirements.txt
+    
     ├── sentiment_analysis/
+    
     │   ├── app.py
+    
     │   ├── requirements.txt
+    
     ├── data_storage/
+    
     │   ├── app.py
+    
     │   ├── requirements.txt
+    
     ├── orchestrator/
+    
     │   ├── app.py
+    
     │   ├── requirements.txt
+    
