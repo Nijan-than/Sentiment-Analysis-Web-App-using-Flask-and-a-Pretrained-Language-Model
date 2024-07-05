@@ -20,6 +20,7 @@ Separate Databases: Each microservice can have its own database.
 Deployment: Each service can be deployed independently, often using containers like Docker.
 
 microservices-project/
+
     ├── comment_retrieval/
     
     │   ├── app.py
