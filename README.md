@@ -12,3 +12,23 @@ The results will be stored in a CSV file, including fields such as email ID (or 
 
 Identify the different functionalities of your application that can be separated into independent services.
 For a sentiment analysis application, you might have services like Comment Retrieval, Sentiment Analysis, and Data Storage.
+
+# Microservices Structure:
+Independent Services: Each service is a separate Flask application.
+Inter-Service Communication: Services communicate with each other over a network, typically using RESTful APIs or message brokers.
+Separate Databases: Each microservice can have its own database.
+Deployment: Each service can be deployed independently, often using containers like Docker.
+
+microservices-project/
+    ├── comment_retrieval/
+    │   ├── app.py
+    │   ├── requirements.txt
+    ├── sentiment_analysis/
+    │   ├── app.py
+    │   ├── requirements.txt
+    ├── data_storage/
+    │   ├── app.py
+    │   ├── requirements.txt
+    ├── orchestrator/
+    │   ├── app.py
+    │   ├── requirements.txt
